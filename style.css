@@ -1,0 +1,90 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #F7F9FC;
+  color: #575F7D;
+  padding: 20px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #ffffff;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto 20px;
+  width: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.discover-quark-link {
+  color: #575F7D;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #313f71;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: block;
+  width: max-content;
+  margin: 20px auto;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #FFFFFF;
+}
+
+.discover-quark-link:hover {
+  background-color: #313f71;
+  color: #FFFFFF;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a {
+  color: #575F7D;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ec7c0b;
+}
+
+@media (max-width: 960px) {
+  .container {
+      width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+      width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+      width: 300px;
+  }
+}
